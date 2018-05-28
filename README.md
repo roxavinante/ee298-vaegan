@@ -7,7 +7,7 @@ Implementation of the method described in [Arxiv paper](https://arxiv.org/abs/15
 
 Authors: Anders Boesen Lindbo Larsen, Søren Kaae Sønderby, Hugo Larochelle, Ole Winther
 
-Presentation Slides: https://bit.ly/2xq09XI
+Presentation Slides (Implementation and Results): https://bit.ly/2xq09XI
 
 #### Dataset
 http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
@@ -15,7 +15,12 @@ http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 #### Usage
 * Training the model
+
 python3 vaegan.py
 
 * Generating images
+
 python3 vaegan_use_trained_model.py
+
+
+*Note: Results can be further improve if the model will be trained using GPU*
