@@ -8,3 +8,14 @@ Implementation of the method described in [Arxiv paper](https://arxiv.org/abs/15
 Authors: Anders Boesen Lindbo Larsen, Søren Kaae Sønderby, Hugo Larochelle, Ole Winther
 
 Presentation Slides: https://bit.ly/2xq09XI
+
+#### Dataset
+http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+202,599 number of face images
+
+#### Usage
+* Training the model
+python3 vaegan.py
+
+* Generating images
+python3 vaegan_use_trained_model.py
